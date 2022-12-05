@@ -1,0 +1,25 @@
+{
+  "name": "testes2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.2.1",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^2.79.1"
+  },
+  "dependencies": {
+    "short-unique-id": "^4.4.4",
+    "web-ifc": "^0.0.36",
+    "web-ifc-viewer": "^1.0.213"
+  }
+}
